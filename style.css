@@ -1,0 +1,52 @@
+.card{
+    text-align: center;
+    margin: 0 auto;
+}
+
+.card-text{
+    font-size: 13px;
+}
+
+.card-subtitle{
+    color: blueviolet;
+    font-size: 14px;
+}
+
+.card-body2{
+    color: blueviolet;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.btn{
+    font-size: 15px;
+    font-weight: 600;
+    background-color: blueviolet;
+    color: white;
+}
+
+.img-container {
+    position: relative;
+    width: 250px;
+    height: 180px;
+    margin: 0 auto;
+}
+
+#img {
+    width: 100%;
+    display: block;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+}
+
+.random{
+    margin-top: 10px;
+}
+
+.prev, .next{
+    font-weight: 800;
+    font-size: 20px;
+    height: 100%;
+    margin: 0 auto;
+}

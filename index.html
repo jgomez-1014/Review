@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter</title>
+    <link rel="shortcut icon" href="./J-ICON.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <nav style="background: white;">
+        <div class="container">
+            <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+                <a href="#"
+                    class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+                    <svg class="bi me-2" width="40" height="32">
+                        <use xlink:href="#bootstrap"></use>
+                    </svg>
+                    <span class="fs-4">Review</span>
+                </a>
+            </header>
+        </div>
+    </nav>
+    <main>
+        <div class="card" style="width: 18rem;">
+            <div class="img-container">
+                <img src="./public//img1.jpg" id="img" alt="" />
+              </div>
+            <div class="card-body">
+                <h5 id="name" class="card-title">Juan Palotes</h5>
+                <h6 id="job" class="card-subtitle">UX Designer</h6>
+            </div>
+            <p id="review" class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis, iste pariatur aliquid blanditiis sunt corrupti, et delectus, fuga quidem voluptatibus obcaecati! Iure possimus laborum maxime blanditiis id aut cum libero.
+                card's content.</p>
+            <div class="card-body2">
+                
+                <button type="button" class="btn btn-outline-dark prev"> < </button>
+                
+                <button type="button" class="btn btn-outline-dark next"> > </button>
+                <br>
+                <button type="button" class="btn btn-outline-dark random">Random Review</button>
+            </div>
+        </div>
+    </main>
+    <script src="./js.js"></script>
+</body>
+
+</html>
